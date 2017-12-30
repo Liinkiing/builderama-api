@@ -7,6 +7,7 @@ parameters:
     env(DATABASE_NAME): "%env(DATABASE_NAME)%"
     env(DATABASE_USER): "%env(DATABASE_USER)%"
     env(DATABASE_PASSWORD): "%env(DATABASE_PASSWORD)%"
+    env(ALLOW_CORS_ORIGINS): "%env(ALLOW_CORS_ORIGINS)%"
     # You should uncomment this if you want to use pdo_sqlite
     #database_path: '%kernel.project_dir%/var/data/data.sqlite'
 
