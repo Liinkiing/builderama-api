@@ -73,7 +73,7 @@ swiftmailer:
 
 nelmio_cors:
     paths:
-        '^/api/':
+        '^/':
             origin_regex: true
             allow_origin: ['%env(ALLOW_CORS_ORIGINS)%']
             allow_headers: ['Origin', 'X-Requested-With', 'Content-Type', 'Accept']
